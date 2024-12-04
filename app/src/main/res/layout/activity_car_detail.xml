@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Логотип автомобиля -->
+    <ImageView
+        android:id="@+id/car_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/default_logo" />
+
+    <!-- Информация об автомобиле -->
+    <TextView
+        android:id="@+id/car_make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Марка: "
+        android:textSize="18sp"
+        android:layout_below="@id/car_logo"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/car_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Модель: "
+        android:textSize="18sp"
+        android:layout_below="@id/car_make"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/car_mileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пробег: "
+        android:textSize="18sp"
+        android:layout_below="@id/car_model"
+        android:layout_marginTop="8dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/oil_change_info"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Замена масла: "-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_below="@id/car_mileage"-->
+<!--        android:layout_marginTop="8dp" />-->
+
+<!--    &lt;!&ndash; Новый TextView для следующей замены масла &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/next_oil_change_info"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Следующая замена масла: "-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_below="@id/oil_change_info"-->
+<!--        android:layout_marginTop="8dp" />-->
+
+
+
+
+
+    <!-- Кнопка для добавления деталей -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="@color/colorButtomAdd"
+        android:src="@drawable/ic_add" />
+
+</RelativeLayout>

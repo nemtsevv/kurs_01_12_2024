@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinner_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edittext_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Выберите дату начала"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/edittext_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Выберите дату конца"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/button_show_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать расходы"
+        android:backgroundTint="@color/colorButtomAdd"
+        />
+
+    <!-- Новый TextView для отображения общей суммы -->
+    <TextView
+        android:id="@+id/textview_total_expense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Общая сумма расходов: 0"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

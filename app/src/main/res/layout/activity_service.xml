@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceActivity">
+
+    <!-- Информация о замене масла -->
+    <TextView
+        android:id="@+id/oil_change_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Замена масла: Не проведена"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/next_oil_change_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Следующая замена масла: - км"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/oil_change_info"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <!-- Информация о страховке -->
+    <TextView
+        android:id="@+id/insurance_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Информация о страховке: Нет"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/next_oil_change_info"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <!-- Информация о тех. осмотре -->
+    <TextView
+        android:id="@+id/tech_check_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Информация о тех. осмотре: Нет"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/insurance_info"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <!-- Кнопки -->
+    <Button
+        android:id="@+id/btn_oil_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Замена масла"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/tech_check_info"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <Button
+        android:id="@+id/btn_insurance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Страховка"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_oil_change"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <Button
+        android:id="@+id/btn_technical_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тех. осмотр"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_insurance"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

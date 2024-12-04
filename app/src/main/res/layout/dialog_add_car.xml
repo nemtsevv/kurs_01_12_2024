@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для выбора марки автомобиля -->
+    <Spinner
+        android:id="@+id/spinner_make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Поле для выбора модели автомобиля -->
+    <Spinner
+        android:id="@+id/spinner_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Поле для ввода пробега автомобиля -->
+    <EditText
+        android:id="@+id/edittext_mileage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пробег"
+        android:inputType="number" />
+
+</LinearLayout>

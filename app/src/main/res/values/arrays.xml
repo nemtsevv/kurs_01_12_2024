@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="car_makes">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Toyota</item>
+        <item>Honda</item>
+        <item>Ford</item>
+        <!-- Добавьте другие марки -->
+    </string-array>
+
+    <!-- Audi -->
+    <string-array name="audi_models">
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A4</item>
+        <item>A4 allroad</item>
+        <item>A5</item>
+        <item>A6</item>
+        <item>A6 allroad</item>
+        <item>A6 e-tron</item>
+        <item>A7</item>
+        <item>A8</item>
+        <item>Cabriolet</item>
+        <item>Coupe</item>
+        <item>e-tron</item>
+        <item>e-tron GT</item>
+        <item>e-tron S</item>
+        <item>e-tron S Sportback</item>
+        <item>e-tron Sportback</item>
+        <item>Front</item>
+        <item>NSU RO 80</item>
+        <item>Q2</item>
+        <item>Q3</item>
+        <item>Q3 Sportback</item>
+        <item>Q4 e-tron</item>
+        <item>Q4 Sportback e-tron</item>
+        <item>Q5</item>
+        <item>Q5 e-tron</item>
+        <item>Q5 Sportback</item>
+        <item>Q6</item>
+        <item>Q6 e-tron</item>
+        <item>Q6 Sportback e-tron</item>
+        <item>Q7</item>
+        <item>Q8</item>
+        <item>Q8 e-tron</item>
+        <item>Q8 Sportback e-tron</item>
+        <item>Quattro</item>
+        <item>R8</item>
+        <item>RS 2</item>
+        <item>RS 3</item>
+        <item>RS 4</item>
+        <item>RS 5</item>
+        <item>RS 6</item>
+        <item>RS 7</item>
+        <item>RS e-tron GT</item>
+        <item>RS Q3</item>
+        <item>RS Q3 Sportback</item>
+        <item>RS Q8</item>
+        <item>S e-tron GT</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>S4</item>
+        <item>S5</item>
+        <item>S6</item>
+        <item>S6 e-tron</item>
+        <item>S7</item>
+        <item>S8</item>
+        <item>SQ2</item>
+        <item>SQ5</item>
+        <item>SQ5 Sportback</item>
+        <item>SQ6 e-tron</item>
+        <item>SQ6 Sportback e-tron</item>
+        <item>SQ7</item>
+        <item>SQ8</item>
+        <item>SQ8 e-tron</item>
+        <item>SQ8 Sportback e-tron</item>
+        <item>TT</item>
+        <item>TT RS</item>
+        <item>TTS</item>
+        <item>Typ R</item>
+        <item>V8</item>
+    </string-array>
+
+    <string-array name="bmw_models">
+        <item>1 Series</item>
+        <item>2 Series</item>
+        <item>3 Series</item>
+        <item>4 Series</item>
+        <item>5 Series</item>
+        <item>6 Series</item>
+        <item>7 Series</item>
+        <item>8 Series</item>
+        <item>X1</item>
+        <item>X2</item>
+        <item>X3</item>
+        <item>X4</item>
+        <item>X5</item>
+        <item>X6</item>
+        <item>X7</item>
+        <item>i3</item>
+        <item>i4</item>
+        <item>i5</item>
+        <item>i7</item>
+        <item>iX</item>
+        <item>iX1</item>
+        <item>iX3</item>
+        <item>iX5</item>
+        <item>iX7</item>
+        <item>Z4</item>
+        <item>M2</item>
+        <item>M3</item>
+        <item>M4</item>
+        <item>M5</item>
+        <item>M6</item>
+        <item>M8</item>
+        <item>XM</item>
+    </string-array>
+
+    <string-array name="toyota_models">
+        <item>Camry</item>
+        <item>Corolla</item>
+        <item>RAV4</item>
+        <!-- Добавьте другие модели Toyota -->
+    </string-array>
+
+    <string-array name="honda_models">
+        <item>Civic</item>
+        <item>Accord</item>
+        <item>CR-V</item>
+        <!-- Добавьте другие модели Honda -->
+    </string-array>
+
+    <string-array name="ford_models">
+        <item>B-MAX</item>
+        <item>Bronco</item>
+        <item>Bronco Sport</item>
+        <item>C-MAX</item>
+        <item>Capri</item>
+        <item>Consul</item>
+        <item>Contour</item>
+        <item>Cougar</item>
+        <item>Courier</item>
+        <item>EcoSport</item>
+        <item>Edge</item>
+        <item>Escape</item>
+        <item>Escort</item>
+        <item>Expedition</item>
+        <item>Explorer</item>
+        <item>F-150</item>
+        <item>F-250</item>
+        <item>F-350</item>
+        <item>Fairlane</item>
+        <item>Festiva</item>
+        <item>Fiesta</item>
+        <item>Fiesta ST</item>
+        <item>Flex</item>
+        <item>Focus</item>
+        <item>Focus Active</item>
+        <item>Focus RS</item>
+        <item>Focus ST</item>
+        <item>Freestar</item>
+        <item>Freestyle</item>
+        <item>Fusion</item>
+        <item>Fusion USA</item>
+        <item>Galaxy</item>
+        <item>Granada</item>
+        <item>Grand C-Max</item>
+        <item>Ka</item>
+        <item>Ka Plus</item>
+        <item>Kuga</item>
+        <item>Maverick</item>
+        <item>Mondeo</item>
+        <item>Mustang</item>
+        <item>Mustang Mach-E</item>
+        <item>Orion</item>
+        <item>Probe</item>
+        <item>Puma</item>
+        <item>Puma ST</item>
+        <item>Ranger</item>
+        <item>S-MAX</item>
+        <item>Scorpio</item>
+        <item>Sierra</item>
+        <item>Taurus</item>
+        <item>Tourneo Connect</item>
+        <item>Tourneo Courier</item>
+        <item>Tourneo Custom</item>
+        <item>Transit Connect</item>
+        <item>Transit Courier</item>
+        <item>Transit Custom</item>
+        <item>Transit Tourneo</item>
+        <item>V8</item>
+        <item>Windstar</item>
+
+        <!-- Добавьте другие модели Ford -->
+    </string-array>
+
+    <string-array name="default_models">
+        <item>Model 1</item>
+        <item>Model 2</item>
+        <item>Model 3</item>
+    </string-array>
+</resources>

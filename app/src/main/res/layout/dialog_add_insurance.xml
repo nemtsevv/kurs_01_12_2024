@@ -1,0 +1,39 @@
+<!-- dialog_insurance.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edittext_insurance_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Сумма страховки"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edittext_insurance_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата страховки"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_6_months"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 месяцев"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/radio_12_months"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 месяцев" />
+    </RadioGroup>
+
+</LinearLayout>
